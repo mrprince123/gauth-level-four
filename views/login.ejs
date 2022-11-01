@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+
+<div class="app">
+
+
+    <div class="main">
+        <h1>Login</h1>
+        <h3>Don't Keep your secrets, share them anonymously.</h3>
+
+
+        <form action="/login" method="POST">
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter your username" name="username">
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter you password" name="password">
+
+            <button type="submit">Login</button>
+        </form>
+
+    </div>
+</div>
+
+    <%- include('partials/footer') %>
